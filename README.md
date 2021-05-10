@@ -16,7 +16,7 @@ Boot Camp M3 Python
 - Data Source: election_results.csv
 - Software: Python 3.8.3, Visual Studio Code, 1.56.0
 
-## Summary
+## Result
 The analysis of the election show that:
 - There are 369,711 votes cast in the election.
 - The candidates were:
@@ -37,3 +37,10 @@ The analysis of the election show that:
   - Denver casted 82.8% of the vote and 306,055 number of votes
   - Arapahoe casted 6.7% of the vote and 24,801 number of votes
 - Denver casted largest number of votes
+
+## Summary
+This code script can provide the election commission with summary information regarding the election result. The commission can use the script to conduct an audit of the result and report the number and percentage information of the election. The result and summary of the election can be accessed on the .txt document in the analysis file. By changing .csv data within the data file, the commission can use the script for auditing other election results and declare the winner by popular vote.
+
+Two example usages of the script:
+Importing the data into the data/Resources file and run the script, and obtain the result.
+Modify the .py coding to change output formate (i.e., the result) on the .txt document in the analysis file.
